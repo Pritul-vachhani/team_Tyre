@@ -1,6 +1,17 @@
 # Team Tyre - Environment Setup
 Spring 2026 Team-7
 
+## Future TODO (Roadmap for Next Iterations)
+1. Try baseline ML models first: Linear Regression, Random Forest, XGBoost, LightGBM, and CatBoost.
+2. Try deep learning models for tabular data: MLP, TabTransformer, and FT-Transformer.
+3. Compare CPU vs GPU training speed (especially XGBoost/LightGBM with CUDA when available).
+4. Add experiment tracking (for example: MLflow or Weights & Biases) to compare model versions.
+5. Build an LLM interface that converts natural-language driving descriptions into model-ready features.
+6. Add a vehicle-spec enrichment step for unseen cars (fetch curb weight, power, etc. from trusted sources).
+7. Wrap the final model in a prediction API (FastAPI) for frontend integration.
+8. Add uncertainty estimates so the app can show confidence with each prediction.
+
+
 This project uses Python `3.12.13`.
 
 ## 1. Prerequisites
