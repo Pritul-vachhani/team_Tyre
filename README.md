@@ -12,6 +12,46 @@ Spring 2026 Team-7
 8. Add uncertainty estimates so the app can show confidence with each prediction.
 
 
+### Main features
+```
+core_features = [
+    "current_tread_depth(mm)",
+    "Standard_tread_depth(mm)",
+    "kilometers_driven(km)",
+    "tread_wear_rating (UTQG)",
+    "average_inflation_pressure(psi)",
+    "recommended_inflation_pressure(psi)",
+]
+```
+
+### Add extra context features that can improve prediction quality.
+```
+additional_features = [
+    "vehicle_sprung_mass(kg)",
+    "vehicle_acceleration(0-100 km/h in seconds)",
+    "maximum_power(hp)",
+    "maximum_torque(N/m)",
+    "maximum_speed (km/h)",
+    "vehicle_mileage(mpg)",
+    "average_tread_temperature(celsius)",
+    "tyre_age(years)",
+    "number_of_punctures",
+    "expected_tyre_life(km)",
+    "retreaded",
+    "road_condition",
+    "weather_condition",
+    "axle_type(driven/dead)",
+    "vehicle_model",
+    "fuel_type",
+    "transmission_type",
+    "tyre_brand",
+    "tyre_size",
+    "tread_material",
+    "country",
+]
+```
+
+
 This project uses Python `3.12.13`.
 
 ## 1. Prerequisites
