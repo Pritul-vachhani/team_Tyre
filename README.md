@@ -79,7 +79,7 @@ Then open:
 
 ## 5. Dataset location
 Place the dataset file in the project root with this exact filename:
-- `Synthetic Automobile Tyre RUL Data.csv`
+- `Automobile Tyre RUL Data.csv` on Kaggle
 
 ## 6. Optional GPU note
 - You can train models on GPU later (for example XGBoost with `device='cuda'`).
